@@ -1,0 +1,173 @@
+body {
+}
+
+.page {
+  font-family: encode sans;
+  padding: 0 40px;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.globo-com {
+  width: 170px;
+  height: 35px;
+}
+
+.logo {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra-topo {
+  font-weight: 700;
+  font-size: 19px;
+
+  border-top: 1px solid #f5f6f7;
+  border-bottom: 1px solid #f5f6f7;
+
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.g1 {
+  color: #c3170c;
+}
+.o-globo {
+  color: #1e4b9b;
+}
+.valor {
+  color: #006766;
+}
+.ge {
+  color: #07aa47;
+}
+.cartola {
+  color: #e3662b;
+}
+.globoplay {
+  color: #fb0735;
+}
+.dropz {
+  color: #ff75bb;
+}
+.gshow {
+  color: #ec7d00;
+}
+.quem {
+  color: #323333;
+}
+.receitas {
+  color: #a81d83;
+}
+
+.materias {
+  padding-top: 34px;
+  padding-bottom: 34px;
+
+  /* display: flex;
+  align-items: center; */
+
+  display: grid;
+  grid-template-columns: 57% 24% 24%;
+  grid-template-areas: "a b c";
+}
+
+.principais {
+  margin-right: 42px;
+  border-right: 1px solid #ebedef;
+  grid-area: a;
+}
+
+.principal {
+  margin-right: 42px;
+  font-size: 52px;
+  font-weight: 700;
+  color: #c4160c;
+  padding-bottom: 29px;
+}
+
+.secundaria {
+  margin-right: 42px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #303134;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ebedef;
+}
+
+.lista-sec {
+  padding-bottom: 7px;
+}
+.noticia-imagem {
+  margin-right: 36px;
+  padding-top: 25px;
+  padding-bottom: 36px;
+
+  display: flex;
+
+  border-bottom: 1px solid #ebedef;
+}
+.not-img {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.divwidth {
+  width: 193px;
+}
+
+.img1 {
+  height: 110px;
+  border-radius: 12px;
+}
+
+.titulo1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #c4170c;
+
+  padding-top: 11px;
+  padding-bottom: 6px;
+}
+
+.conteudo1 {
+  font-size: 19px;
+  font-weight: 700;
+
+  padding-bottom: 15px;
+}
+
+.conteudo2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.noticia-sem-imagem {
+  margin-right: 42px;
+  padding-top: 25px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.materia-meio {
+  display: flex;
+  flex-direction: column;
+  grid-area: b;
+}
+
+.materia-direita {
+  display: flex;
+  flex-direction: column;
+  grid-area: c;
+}
